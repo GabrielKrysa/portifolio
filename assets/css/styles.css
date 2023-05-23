@@ -196,9 +196,9 @@ a.dotted-link:hover {
 
 .section .heading {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 22px;
   color: #545e69;
-  font-size: 24px;
+  font-size: 19px;
 }
 
 .section .content .more-link .svg-inline--fa {
@@ -424,14 +424,14 @@ a.dotted-link:hover {
 }
 
 .skills .skillset .item {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .skills .skillset .level-title {
-  font-size: 16px;
+  font-size: 14px;
   position: relative;
   margin-top: 0;
-  margin-bottom: 10;
+  margin-bottom: 8;
 }
 
 .skills .skillset .level-title .level-label {
@@ -452,6 +452,28 @@ a.dotted-link:hover {
 .skills .skillset .level-bar-inner {
   height: 15px;
   background: #66cb8c;
+}
+
+.skills .skillset .level-bar-frameworks {
+  height: 15px;
+  background: #e8e8e8;
+}
+
+.skills .skillset .level-bar-inner-frameworks {
+  height: 15px;
+  background: #cba86686;
+}
+
+.framework {
+  background: #cba86686 !important;
+}
+
+.databases {
+  background: #6684cb86 !important;
+}
+
+.devops {
+  background: #ba66cb86 !important;
 }
 
 .skills .svg-inline--fa {
@@ -671,4 +693,10 @@ a.dotted-link:hover {
     width: 1360px;
     max-width: inherit;
   }
+}
+
+.divider {
+  height: 1px;
+  background-color: #3d3a3a20;
+  margin: 10px 0;
 }
